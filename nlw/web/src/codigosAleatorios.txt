@@ -1,0 +1,10 @@
+Ícones React
+yarn add react-icons
+
+Rotas
+yarn add react-router-dom
+yarn add @types/react-router-dom -D
+
+Mapas Gratuito
+yarn add leaflet react-leaflet
+yarn add @types/react-leaflet
