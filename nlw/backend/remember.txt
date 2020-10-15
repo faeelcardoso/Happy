@@ -38,3 +38,14 @@ Para abilitar uma API
 
 Upload de Imagens Biblioteca
 yarn add multer e yarn add @types/multer -D
+
+Lidar com exceções
+yarn add express-async-errors
+
+Validar dados
+yarn add yup
+yarn add @types/yup -D 
+
+Para executar tudo de portas diferentes, front 3000 e backend 3333, sem o cors buga
+yarn add cors
+yarn add @types/cors -D
