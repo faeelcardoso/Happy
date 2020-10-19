@@ -118,7 +118,7 @@ export default function Orphanage() {
                   <FiInfo size={32} color="#FF669D" />
                   Não atendemos <br />
                   fim de semana
-                </div>
+                </div>         
               ) }
             </div>
           </div>

@@ -1,0 +1,51 @@
+Package
+yarn init -y
+Express
+yarn add express
+Express tipagem
+yarn add @types/express -D
+Instalar Typescript para o Node entender
+yarn add typescript -D
+Criar o arquivo ts.config
+yarn tsc --init e editar ts5 para ts2017
+Instalar o node dev
+yarn add ts-node-dev -D 
+E por fim colocar no Package.json
+"scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+Agr tá tudo rodando. Para executar, "yarn dev"
+
+Banco de dados
+yarn add typeorm sqlite3
+yarn typeorm
+
+Criar tabelas
+yarn typeorm migration:create -n create_orphanages (-n nome migration)
+
+Executar uma tabela
+yarn typeorm migration:run
+Reverter
+yarn typeorm migration:revert
+
+Para começar a mexer nas models, colocar no TSCONFIG o 
+// "strictPropertyInitialization": false, (tava true) e também
+Para abilitar uma API 
+/* Experimental Options */
+"experimentalDecorators": true,
+"emitDecoratorMetadata": true,
+
+Upload de Imagens Biblioteca
+yarn add multer e yarn add @types/multer -D
+
+Lidar com exceções
+yarn add express-async-errors
+
+Validar dados
+yarn add yup
+yarn add @types/yup -D 
+
+Para executar tudo de portas diferentes, front 3000 e backend 3333, sem o cors buga
+yarn add cors
+yarn add @types/cors -D
