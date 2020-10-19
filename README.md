@@ -1,16 +1,16 @@
 <h1 align="center">
-    <img src="web/src/images/logo-black.svg" width="230px">
+    <img src="nlw/web/src/images/logo-black.svg" width="230px">
     <br>Next Level Week #03</br> 
 </h1>
 
 <p align="center">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/faeelcardoso/happy?style=flat-square">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/faeelcardoso/happy?style=flat-square">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/faeelcardoso/Happy?style=flat-square">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/faeelcardoso/Happy?style=flat-square">
      <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1?style=flat-square"><br/>
 </p>
 
 <h1>
-    <img src="web/src/images/gif/nlw3.gif" alt="Gif do projeto">
+    <img src="nlw/web/src/images/gif/nlw3.gif" alt="Gif do projeto">
 </h1>
 
 ## Indice
